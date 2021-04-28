@@ -8,7 +8,8 @@ import Footer from "./components/layout/footer/Footer";
 import Nav from "./components/layout/nav/Nav";
 import Research from "./components/layout/nav/research/Research";
 //import Home from "./components/layout/nav/home/Home";
-import Explore from "./components/layout/section_explore/Explore";
+import Explore from "./components/layout/section_explore/explore/Explore";
+
 
 import {
   BrowserRouter as Router,
