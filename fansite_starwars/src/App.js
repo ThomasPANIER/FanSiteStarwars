@@ -1,21 +1,22 @@
 
 import React from "react";
-import axios from "axios";
+
 
 import './App.css';
 import Header from "./components/layout/header/Header";
 import Footer from "./components/layout/footer/Footer";
 import Nav from "./components/layout/nav/Nav";
-import Research from "./components/layout/nav/research/Research";
+//import Research from "./components/layout/nav/research/Research";
 //import Home from "./components/layout/nav/home/Home";
 import Explore from "./components/layout/section_explore/explore/Explore";
+import Films from "./components/layout/section_explore/list/films/Films.js";
 
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
+  
 } from "react-router-dom";
 
 function App() {
@@ -30,15 +31,15 @@ function App() {
               <Explore />
             </Route>
             <Route path="/research">
-              <Research />
+              <Films />
             </Route>            
                   
             <Explore />     
             
             {/* <Route path="/films">
               <Films />
-            </Route>
-            <Route path="/planetes">
+            </Route> */}
+            {/* <Route path="/planetes">
               <Planetes />
             </Route>
             <Route path="/personnages">

@@ -14,14 +14,25 @@ code {
 }
 
 header {
-  background-image:url("./img/bgHeader.jpg");
-  background-position:center;
+  background-image:url("./img/epic_starwars_header.jpg");
+  background-size:cover;
+  background-position:top;
 }
 
 body {
-  background-image:url("./img/bgImg.jpg");
+  background-image:url("./img/bgBody.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;  
 }
 
 footer {
-  background-image:url("./img/bgFooter.jpg");
+  background-image:url("./img/epic_starwars_footer.jpg");
+  background-size:cover;
+  background-position: bottom;  
+}
+
+button {
+  background-image:url("./img/yoda.jpg");
+  background-size:cover;
 }

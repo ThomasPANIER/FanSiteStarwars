@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 function Nav() {
     return(
         
-            <ul className="nav bg-secondary py-2">
+            <ul className="nav py-2">
                 <li className="nav-item">
                     <Link className="nav-link active text-white" to="/home">Accueil</Link>
                 </li>
