@@ -11,6 +11,8 @@ import Films from "./components/layout/section_explore/list/films/Films.js";
 import People from "./components/layout/section_explore/list/people/People";
 import Planets from "./components/layout/section_explore/list/planets/Planets";
 import Species from "./components/layout/section_explore/list/species/Species";
+import Vehicles from "./components/layout/section_explore/list/vehicles/Vehicles";
+import Starships from "./components/layout/section_explore/list/starships/Starships";
 
 import {
   BrowserRouter as Router,
@@ -42,12 +44,12 @@ function App() {
             <Route path="/species">
               <Species />
             </Route>
-            {/* <Route path="/vehicles">
+            <Route path="/vehicles">
               <Vehicles />
-            </Route> */}
-            {/* <Route path="/starships">
+            </Route>
+            <Route path="/starships">
               <Starships />
-            </Route>            */}
+            </Route>           
             <Route path="/research">
               <Research />
             </Route>
