@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FanSiteStarwars/static/css/main.24be7636.chunk.css",
+    "main.js": "/FanSiteStarwars/static/js/main.d28d9a10.chunk.js",
+    "main.js.map": "/FanSiteStarwars/static/js/main.d28d9a10.chunk.js.map",
+    "runtime-main.js": "/FanSiteStarwars/static/js/runtime-main.332f0a02.js",
+    "runtime-main.js.map": "/FanSiteStarwars/static/js/runtime-main.332f0a02.js.map",
+    "static/js/2.f6d631ae.chunk.js": "/FanSiteStarwars/static/js/2.f6d631ae.chunk.js",
+    "static/js/2.f6d631ae.chunk.js.map": "/FanSiteStarwars/static/js/2.f6d631ae.chunk.js.map",
+    "static/js/3.2c0f3e98.chunk.js": "/FanSiteStarwars/static/js/3.2c0f3e98.chunk.js",
+    "static/js/3.2c0f3e98.chunk.js.map": "/FanSiteStarwars/static/js/3.2c0f3e98.chunk.js.map",
+    "index.html": "/FanSiteStarwars/index.html",
+    "static/css/main.24be7636.chunk.css.map": "/FanSiteStarwars/static/css/main.24be7636.chunk.css.map",
+    "static/js/2.f6d631ae.chunk.js.LICENSE.txt": "/FanSiteStarwars/static/js/2.f6d631ae.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/FanSiteStarwars/static/media/yoda.718fcb28.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.332f0a02.js",
+    "static/js/2.f6d631ae.chunk.js",
+    "static/css/main.24be7636.chunk.css",
+    "static/js/main.d28d9a10.chunk.js"
+  ]
+}
