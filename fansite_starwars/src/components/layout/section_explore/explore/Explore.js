@@ -4,18 +4,18 @@ import React from "react";
 
 
 import Elements from "./Elements";
-//import Films from "./list/films/Films";
+
 
 
 
 function Explore() {
     const items = [
-        "Films",
-        "Personnages",
-        "Planètes",
-        "Espèces",
-        "Vaisseaux",
-        "Véhicules"
+        "films",
+        "people",
+        "planets",
+        "species",
+        "starships",
+        "vehicles"
     ];
 
     let itemsList = items.map((item) =>
@@ -42,7 +42,7 @@ function Explore() {
 
 export default Explore;
 
-// import Films from ".\list\films\Films.js";
+
 
 // function Explore() {
 //     return(

@@ -2,10 +2,10 @@
 import React from "react";
 import Axios from "axios";
 
-import Articlefilm from "./articlefilm/Articlefilm";
+import Articlespecies from "./articlespecies/Articlespecies";
 
 
-class Films extends React.Component {
+class Species extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -17,19 +17,18 @@ class Films extends React.Component {
     }
     
     componentDidMount() {
-        Axios.get("https://swapi.dev/api/films/")
+        Axios.get("https://swapi.dev/api/species/")
         .then((response) => {
             console.log(response);
             let articles = response.data.results.map(article => {                
-                return <Articlefilm article={article} />                
+                return <Articlespecies article={article} />                
             });
             
             this.setState({
                 loaded: true,
                 data: response.data,
                 articles: articles                
-            })
-            
+            })            
         })
         
         .catch((error) => {
@@ -50,7 +49,7 @@ class Films extends React.Component {
             
             return(                
                 <section>
-                    <h2>La liste des films :</h2>                    
+                    <h2>La liste des espèces :</h2>                    
                     <div className="row">
                         {this.state.articles}
                     </div>
@@ -63,4 +62,4 @@ class Films extends React.Component {
     }
 }
 
-export default Films;
+export default Species;
