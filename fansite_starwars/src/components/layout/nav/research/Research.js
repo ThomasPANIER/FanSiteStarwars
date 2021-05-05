@@ -13,7 +13,7 @@ import React from "react";
 function Research() {
     return(
         <div className="d-flex">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <input className="form-control me-2" type="search" placeholder="non fonctionnel pour l'instant" aria-label="Search" />
             <button className="btn btn-outline-secondary" type="submit">Recherche</button>
         </div>
     );

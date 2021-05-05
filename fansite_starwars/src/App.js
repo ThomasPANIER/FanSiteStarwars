@@ -1,16 +1,16 @@
 
 import React from "react";
 
-
 import './App.css';
 import Header from "./components/layout/header/Header";
 import Footer from "./components/layout/footer/Footer";
 import Nav from "./components/layout/nav/Nav";
-//import Research from "./components/layout/nav/research/Research";
-//import Home from "./components/layout/nav/home/Home";
+import Research from "./components/layout/nav/research/Research";
 import Explore from "./components/layout/section_explore/explore/Explore";
 import Films from "./components/layout/section_explore/list/films/Films.js";
-
+import People from "./components/layout/section_explore/list/people/People";
+import Planets from "./components/layout/section_explore/list/planets/Planets";
+import Species from "./components/layout/section_explore/list/species/Species";
 
 import {
   BrowserRouter as Router,
@@ -30,31 +30,30 @@ function App() {
             <Route path="/home">
               <Explore />
             </Route>
-            <Route path="/research">
+            <Route path="/films">
               <Films />
-            </Route>            
-                  
-            <Explore />     
-            
-            {/* <Route path="/films">
-              <Films />
+            </Route>
+            <Route path="/people">
+              <People />
+            </Route>
+            <Route path="/planets">
+              <Planets />
+            </Route>
+            <Route path="/species">
+              <Species />
+            </Route>
+            {/* <Route path="/vehicles">
+              <Vehicles />
             </Route> */}
-            {/* <Route path="/planetes">
-              <Planetes />
-            </Route>
-            <Route path="/personnages">
-              <Personnages />
-            </Route>
-            <Route path="/especes">
-              <Especes />
-            </Route>
-            <Route path="/vehicules">
-              <Vehicules />
-            </Route>
-            <Route path="/vaisseaux">
-              <Vaisseaux />
+            {/* <Route path="/starships">
+              <Starships />
             </Route>            */}
-            
+            <Route path="/research">
+              <Research />
+            </Route>
+            <Route path="/">
+              <Explore />
+            </Route>                      
           </Switch>
         </main>
       </Router>
