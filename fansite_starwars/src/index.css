@@ -36,3 +36,9 @@ button {
   background-image:url("./img/yoda.jpg");
   background-size:cover;
 }
+
+.item {
+  background-image:url("./img/element_Img.jpg");
+  background-size:cover;
+  background-position:center;  
+}

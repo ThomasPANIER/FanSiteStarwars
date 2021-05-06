@@ -42,13 +42,13 @@ class People extends React.Component {
         if(this.state.loaded) {
             if(this.state.error) {
                 return(
-                    <p>une erreur est survenue. Erreur : {this.state.error.message}</p>                    
+                    <p className="text-white">une erreur est survenue. Erreur : {this.state.error.message}</p>                    
                 );                
             }
             
             return(                
                 <section>
-                    <h2>La liste des personnages :</h2>                    
+                    <h2 className="text-white">La liste des personnages :</h2>                    
                     <div className="row">
                         {this.state.articles}
                     </div>
@@ -56,7 +56,7 @@ class People extends React.Component {
             );
         }
         return(
-            <p>Vos données sont en cours de chargement</p>
+            <p className="text-white">Vos données sont en cours de chargement</p>
         );
     }
 }
