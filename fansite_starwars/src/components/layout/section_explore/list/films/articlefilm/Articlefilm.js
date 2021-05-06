@@ -4,10 +4,10 @@ function Articlefilm(props) {
         <div className="col-6 col-sm-4 col-lg-3">
             <article className="bg-dark text-center text-white py-5 my-2">
                 <h3 className="text-danger">{props.article.title}</h3>
-                <p>{props.article.episode_id}</p>
-                <p>{props.article.director}</p>
-                <p>{props.article.producer}</p>
-                <p>{props.article.release_date}</p>
+                <p>Episode n° : {props.article.episode_id}</p>
+                <p>Réalisateur : {props.article.director}</p>
+                <p>Producteur : {props.article.producer}</p>
+                <p>Date de parution : {props.article.release_date}</p>
             </article>
         </div>
     )
